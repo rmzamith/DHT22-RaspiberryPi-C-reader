@@ -12,7 +12,7 @@ For this project you will need:
 In the default configuration of the project, you should connect the sensor pins to Raspberry like this:  
 ![alt tag](https://raw.githubusercontent.com/rmzamith/DHT22-RaspiberryPi-C-reader/master/dht22.png)  
 
-The resistor is a 10KΩ with +-5% tolerance.
+The resistor is a 10KΩ with +-5% tolerance.  
 You can change the data pin, but make sure you change it on the code too.  
 Use the WiringPi pin numeration. See the pin numbers by executing this command in shell `gpio readall`.  On the default code, we are using GPIO 12, that is equivalent to the WiringPi pin number 26.
 
