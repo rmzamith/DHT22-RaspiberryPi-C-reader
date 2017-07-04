@@ -23,3 +23,6 @@ To compile, execute the folowing:
 ## Software Execution
 After compiled, you should run the compiled artifact this way:  
 `sudo ./dht22.out`
+
+
+There`s a know issue for negative temperatures. I`m looking forward to fix it.
